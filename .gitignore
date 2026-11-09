@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv-corem-gpu/
+.venv-corem-qwen35/
+.conda-corem-tex/
+.conda-corem-appworld/
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+corem_references.bib
+
+# Private generated research data
+/data/private_corem/
+/data/private_*/
+/experiments/results*/
+/third_party/
+/.venv-corem-qwen32-awq/
+/.ruff_cache/
+
+# Reproducible local service runtimes (recreated from pinned lock files)
+/experiments/real_tracks/runtime/*/node_modules/
+/experiments/real_tracks/runtime/*/db.runtime.json
+
